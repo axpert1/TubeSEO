@@ -12,8 +12,8 @@
     --border-strong:    rgba(255, 255, 255, 0.14);
 
     --text:             #f5f5fa;
-    --text-muted:       #b3b3c2;
-    --text-soft:        #71717a;
+    --text-muted:       #c0c0d0;
+    --text-soft:        #9191a0;
 
     --red:              #ff2256;
     --purple:           #a855f7;
@@ -51,6 +51,29 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+/* Skip link for keyboard/screen reader users */
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 16px;
+    z-index: 200;
+    padding: 12px 24px;
+    background: var(--gradient-primary);
+    color: white;
+    font-weight: 600;
+    border-radius: var(--radius-sm);
+    transition: top 0.2s ease;
+}
+.skip-link:focus {
+    top: 16px;
+}
+
+/* Keyboard focus indicator */
+:focus-visible {
+    outline: 2px solid var(--purple);
+    outline-offset: 3px;
 }
 
 /* Ambient gradient blobs, fixed so they live behind everything */
