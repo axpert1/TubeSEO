@@ -3,89 +3,393 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YubeCalc - Video & Channel Growth Tools</title>
-    <meta name="description" content="YubeCalc helps creators optimize their YouTube channels with Tags Extractor, Keyword Suggestions, AI Hashtags, and Trending Videos analysis.">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <title>TubeSEO — YouTube Tags, SEO & Keywords Tool for Creators</title>
+    <meta name="description" content="TubeSEO is a free YouTube SEO tool featuring a YouTube tag generator, keyword finder, hashtag generator, video SEO tool, and channel analyzer for creators, marketers, and businesses.">
+    <meta name="theme-color" content="#0a0b14">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="TubeSEO — YouTube Tags, SEO & Keywords Tool for Creators">
+    <meta property="og:description" content="Free YouTube SEO toolkit — extract tags, discover keywords, generate hashtags, analyze videos & channels, and download HD thumbnails. Available on Android & iOS.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yubecalc.com/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <div class="logo">
-            <div class="logo-icon">▶</div>
-            YubeCalc
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">▶</div>
+                TubeSEO
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how">How it works</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.ytool.tubecalc.yubecalc" class="nav-cta">Get the app</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#features">Features</a></li>
-                <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <section class="hero">
-        <h1>Grow Your Channel<br>Like a Pro</h1>
-        <p>The ultimate toolkit for video creators. Extract tags, generate AI hashtags, discover trending videos, and analyze channel metrics all in one place.</p>
-        <a href="https://play.google.com/store/apps/details?id=com.ytool.tubecalc.yubecalc" class="btn">Download App Now</a>
-    </section>
+    <main>
 
-    <section id="features" class="features">
-        <h2 class="section-title">Powerful Features</h2>
-        <div class="grid">
-            <div class="card">
-                <div class="card-icon">🏷️</div>
-                <h3>Video Tags Extractor</h3>
-                <p>Easily extract tags from any video to understand competitor strategies and improve your own video SEO ranking.</p>
+        <!-- ============ HERO ============ -->
+        <section class="hero">
+            <div class="container">
+                <span class="eyebrow"><span class="dot"></span>Built for the 2026 creator economy</span>
+                <h1>The YouTube SEO toolkit that <span class="gradient-text">grows your channel</span>.</h1>
+                <p class="lead">
+                    Extract video tags, discover trending keywords, generate hashtags, analyze channels,
+                    estimate revenue, and download HD thumbnails — all in one beautifully fast mobile app. No login required.
+                </p>
+                <div class="hero-actions">
+                    <a href="https://play.google.com/store/apps/details?id=com.ytool.tubecalc.yubecalc" class="btn btn-primary btn-lg">
+                        <svg width="20" height="22" viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L11.5 11L1 21V1Z" fill="white"/><path d="M1 1L15 8.5L11.5 11L1 1Z" fill="white" opacity="0.8"/><path d="M1 21L15 13.5L11.5 11L1 21Z" fill="white" opacity="0.6"/><path d="M15 8.5L19 11L15 13.5V8.5Z" fill="white" opacity="0.9"/></svg>
+                        Download for Android
+                    </a>
+                    <a href="https://apps.apple.com/us/app/tubeseo-tags-seo-keywords/id6774161598" class="btn btn-primary btn-lg btn-ios">
+                        <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.94 11.64C14.92 9.28 16.88 8.14 16.96 8.1C15.84 6.46 14.1 6.24 13.48 6.22C11.96 6.06 10.5 7.12 9.74 7.12C8.96 7.12 7.76 6.24 6.48 6.26C4.82 6.3 3.28 7.22 2.46 8.7C0.76 11.7 2.02 16.12 3.66 18.54C4.48 19.72 5.46 21.06 6.74 21.02C8 20.96 8.46 20.2 9.94 20.2C11.4 20.2 11.84 21.02 13.16 20.98C14.52 20.96 15.36 19.78 16.16 18.6C17.12 17.24 17.5 15.9 17.52 15.84C17.5 15.82 14.96 14.82 14.94 11.64Z" fill="white"/><path d="M12.52 4.56C13.18 3.74 13.64 2.62 13.5 1.5C12.56 1.54 11.38 2.14 10.7 2.94C10.08 3.66 9.52 4.82 9.68 5.92C10.74 6 11.84 5.36 12.52 4.56Z" fill="white"/></svg>
+                        Download for iOS
+                    </a>
+                </div>
+
+                <div class="stats-strip">
+                    <div class="stat">
+                        <div class="stat-value">4.8★</div>
+                        <div class="stat-label">Play Store rating</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">10+</div>
+                        <div class="stat-label">Creator tools</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">50+</div>
+                        <div class="stat-label">Trending regions</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-value">Free</div>
+                        <div class="stat-label">No login required</div>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-                <div class="card-icon">💡</div>
-                <h3>Keyword Suggestions</h3>
-                <p>Discover high-ranking keywords that viewers are actively searching for to optimize your titles and descriptions.</p>
+        </section>
+
+        <!-- ============ FEATURES ============ -->
+        <section id="features">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">Features</span>
+                    <h2>Everything a creator needs, in one app</h2>
+                    <p>From discovering trending tags to analyzing competitor channels, TubeSEO helps you research, optimize, and grow faster.</p>
+                </div>
+
+                <div class="features-grid">
+
+                    <div class="feature-card">
+                        <div class="feature-icon red">🏷</div>
+                        <h3>YouTube Tag Generator & Extractor</h3>
+                        <p>Generate and extract YouTube tags from any public video instantly. Paste a URL to discover relevant tags and get inspiration for optimizing your content.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon blue">🔍</div>
+                        <h3>YouTube Keyword Tool</h3>
+                        <p>Research keywords and discover popular search terms used on YouTube. Find content opportunities and optimize titles, descriptions, and tags with real keyword insights.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon purple">#</div>
+                        <h3>AI Hashtag Generator</h3>
+                        <p>Generate relevant hashtags for YouTube videos and Shorts. Improve content discoverability with topic-based hashtag suggestions designed for creators and marketers.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon green">📊</div>
+                        <h3>Video SEO Tool & Analyzer</h3>
+                        <p>Analyze video metadata including title, description, views, and other publicly available information. Gain insights to help optimize your content strategy.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon purple">📈</div>
+                        <h3>Channel Analyzer</h3>
+                        <p>Analyze public YouTube channels — subscriber counts, upload statistics, total videos, and channel performance — all in one glanceable card.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon red">$</div>
+                        <h3>Revenue Estimator</h3>
+                        <p>Plug in views and CPM to estimate earnings for any video or channel. Plan campaigns with real numbers and informed ball-park figures.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon blue">🖼</div>
+                        <h3>HD Thumbnail Downloader</h3>
+                        <p>View and save publicly available video thumbnails in Maxres, HQ, MQ, and SD. Perfect for inspiration, research, and content planning.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon green">🌍</div>
+                        <h3>Worldwide Trending</h3>
+                        <p>Browse what's blowing up in 50+ countries. Spot the next wave before everyone else does and plan your content around global trends.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon purple">⏰</div>
+                        <h3>Daily Creator Boost</h3>
+                        <p>Morning and evening motivational notifications keep your upload streak — and your mindset — alive. Stay consistent, stay growing.</p>
+                    </div>
+
+                </div>
             </div>
-            <div class="card">
-                <div class="card-icon">✨</div>
-                <h3>AI Hashtag Generator</h3>
-                <p>Instantly generate the most relevant and trending hashtags using AI to boost your video discoverability.</p>
+        </section>
+
+        <!-- ============ HOW IT WORKS ============ -->
+        <section id="how">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">How it works</span>
+                    <h2>Optimize any video in three steps</h2>
+                    <p>No setup, no logins, no learning curve. Open TubeSEO and start.</p>
+                </div>
+
+                <div class="steps-grid">
+                    <div class="step">
+                        <h3>Drop a link</h3>
+                        <p>Paste any video or channel URL into TubeSEO. Or browse trending and pick something hot.</p>
+                    </div>
+                    <div class="step">
+                        <h3>Get the breakdown</h3>
+                        <p>Tags, hashtags, keywords, views, likes, channel stats, thumbnails — everything you need, instantly.</p>
+                    </div>
+                    <div class="step">
+                        <h3>Ship your own</h3>
+                        <p>Copy tags, lift keywords, save thumbnails, and apply the insights to your next upload.</p>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-                <div class="card-icon">📈</div>
-                <h3>Trending Videos Analysis</h3>
-                <p>Explore what's trending across different countries. Analyze view counts, likes, and engagement metrics.</p>
+        </section>
+
+        <!-- ============ WHY (HIGHLIGHTS) ============ -->
+        <section>
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">Why creators love it</span>
+                    <h2>Built for speed. Designed for taste.</h2>
+                    <p>A creator tool should feel as polished as the videos you make. TubeSEO does.</p>
+                </div>
+
+                <div class="highlights">
+                    <div class="highlight">
+                        <div class="highlight-icon">✦</div>
+                        <div>
+                            <strong>Premium dark UI</strong>
+                            <span>Glassmorphism, soft gradients, smooth motion.</span>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <div class="highlight-icon">⚡</div>
+                        <div>
+                            <strong>Fast and easy to use</strong>
+                            <span>Cached results render before the network does.</span>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <div class="highlight-icon">🔒</div>
+                        <div>
+                            <strong>No login required</strong>
+                            <span>No accounts, no creator data leaves your device.</span>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <div class="highlight-icon">📱</div>
+                        <div>
+                            <strong>Android & iOS</strong>
+                            <span>Available on Google Play and the App Store.</span>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <div class="highlight-icon">↻</div>
+                        <div>
+                            <strong>Auto-updating</strong>
+                            <span>New tools and refinements every release.</span>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <div class="highlight-icon">$</div>
+                        <div>
+                            <strong>Free to use</strong>
+                            <span>Core tools stay free. Beginner friendly.</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-                <div class="card-icon">📊</div>
-                <h3>Channel Analytics</h3>
-                <p>Dive deep into channel details, track growth patterns, and use the built-in revenue calculator to estimate earnings.</p>
+        </section>
+
+        <!-- ============ PERFECT FOR ============ -->
+        <section>
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">Perfect for</span>
+                    <h2>Made for every kind of creator</h2>
+                    <p>Whether you're just starting or managing a brand, TubeSEO fits your workflow.</p>
+                </div>
+
+                <div class="highlights">
+                    <div class="highlight">
+                        <div class="highlight-icon">🎬</div>
+                        <div>
+                            <strong>YouTube Creators</strong>
+                            <span>Optimize every upload with data-backed tags and keywords.</span>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <div class="highlight-icon">📱</div>
+                        <div>
+                            <strong>Shorts Creators</strong>
+                            <span>Generate hashtags and metadata tuned for YouTube Shorts.</span>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <div class="highlight-icon">📢</div>
+                        <div>
+                            <strong>Digital Marketers</strong>
+                            <span>Research competitor channels and discover content gaps.</span>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <div class="highlight-icon">📚</div>
+                        <div>
+                            <strong>SEO Learners</strong>
+                            <span>Understand YouTube SEO with real data, not theory.</span>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <div class="highlight-icon">🌐</div>
+                        <div>
+                            <strong>Social Media Managers</strong>
+                            <span>Manage video metadata and track trends across regions.</span>
+                        </div>
+                    </div>
+                    <div class="highlight">
+                        <div class="highlight-icon">✂</div>
+                        <div>
+                            <strong>Video Editors</strong>
+                            <span>Grab thumbnails, reference metadata, and plan edits faster.</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-                <div class="card-icon">📱</div>
-                <h3>Offline Cache</h3>
-                <p>Access your recent searches and saved data even when you don't have an active internet connection.</p>
+        </section>
+
+        <!-- ============ FAQ ============ -->
+        <section id="faq">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">FAQ</span>
+                    <h2>Quick answers</h2>
+                </div>
+
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>Is TubeSEO free?</summary>
+                        <p>Yes. All core tools — tag generator, tag extractor, keyword tool, hashtag generator, video analyzer, channel analyzer, thumbnail downloader, trending, and revenue estimator — are free to use. A small banner ad keeps the lights on.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Do I need to log in?</summary>
+                        <p>No login, no account. Just install and start. We don't collect any creator credentials.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Does it work offline?</summary>
+                        <p>Mostly. Every video and channel you look up is cached, so you can keep browsing recent results without a connection. Fresh trending data and new lookups need internet.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>What platforms is it on?</summary>
+                        <p>TubeSEO is available on both platforms — <a href="https://play.google.com/store/apps/details?id=com.ytool.tubecalc.yubecalc">Android on Google Play</a> and <a href="https://apps.apple.com/us/app/tubeseo-tags-seo-keywords/id6774161598">iOS on the App Store</a>. Download it on whichever device you prefer.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Is the revenue estimate accurate?</summary>
+                        <p>It's an informed estimate based on view counts and typical creator CPM ranges. Actual earnings depend on geography, audience demographics, advertiser demand, and platform policy, so treat the number as a planning ball-park, not a guarantee.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Is TubeSEO affiliated with YouTube?</summary>
+                        <p>No. TubeSEO is not affiliated with, endorsed by, or sponsored by YouTube or Google LLC. YouTube is a trademark of Google LLC. TubeSEO uses publicly available information and official APIs where applicable.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I contact support?</summary>
+                        <p>Email <a href="mailto:support@yubecalc.com">support@yubecalc.com</a> — we read everything and reply within a few business days.</p>
+                    </details>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!-- ============ CTA BANNER ============ -->
+        <section>
+            <div class="container">
+                <div class="cta-banner">
+                    <h2>Ready to grow your channel?</h2>
+                    <p>Install TubeSEO and turn every upload into a data-backed decision.</p>
+                    <div class="cta-buttons">
+                        <a href="https://play.google.com/store/apps/details?id=com.ytool.tubecalc.yubecalc" class="btn btn-primary btn-lg">
+                            Download on Google Play
+                        </a>
+                        <a href="https://apps.apple.com/us/app/tubeseo-tags-seo-keywords/id6774161598" class="btn btn-secondary btn-lg">
+                            Download on App Store
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
 
     <footer>
-        <div class="footer-content">
-            <div>
-                <div class="footer-logo">▶ YubeCalc</div>
-                <p style="color: #999; max-width: 300px; margin-top: 1rem;">Empowering creators with the right tools to grow their audience and optimize their content.</p>
-            </div>
-            <div class="footer-links">
-                <div>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">▶</div>
+                        TubeSEO
+                    </div>
+                    <p>Free YouTube SEO tools for the next generation of video creators. Research tags, discover keywords, generate hashtags, and grow — all from one beautifully designed app.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <a href="#features">Features</a>
+                    <a href="#how">How it works</a>
+                    <a href="#faq">FAQ</a>
+                </div>
+
+                <div class="footer-col">
                     <h4>Legal</h4>
                     <a href="privacy-policy.html">Privacy Policy</a>
-                    <a href="terms-and-conditions.html">Terms & Conditions</a>
+                    <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
                 </div>
-                <div>
-                    <h4>Contact</h4>
+
+                <div class="footer-col">
+                    <h4>Download</h4>
+                    <a href="https://play.google.com/store/apps/details?id=com.ytool.tubecalc.yubecalc">Google Play</a>
+                    <a href="https://apps.apple.com/us/app/tubeseo-tags-seo-keywords/id6774161598">App Store</a>
                     <a href="mailto:support@yubecalc.com">support@yubecalc.com</a>
                 </div>
             </div>
-        </div>
-        <div class="copyright">
-            &copy; 2026 YubeCalc. All rights reserved. Not affiliated with YouTube.
+
+            <div class="footer-bottom">
+                <span>&copy; 2026 TubeSEO. All rights reserved.</span>
+                <span>Crafted for creators worldwide.</span>
+            </div>
         </div>
     </footer>
 
