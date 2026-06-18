@@ -3,84 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - YubeCalc</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <title>Privacy Policy — YubeCalc</title>
+    <meta name="description" content="How YubeCalc collects, uses, and protects your information.">
+    <meta name="theme-color" content="#0a0b14">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <a href="index.html" class="logo">
-            <div class="logo-icon">▶</div>
-            YubeCalc
-        </a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="privacy-policy.html" style="color: var(--primary-color)">Privacy Policy</a></li>
-                <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
-            </ul>
-        </nav>
+        <div class="header-inner">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">▶</div>
+                YubeCalc
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="privacy-policy.html" class="active">Privacy</a></li>
+                    <li><a href="terms-and-conditions.html">Terms</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.ytool.tubecalc.yubecalc" class="nav-cta">Get the app</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <div class="legal-container">
-        <h1>Privacy Policy</h1>
-        <p><strong>Last Updated:</strong> May 3, 2026</p>
-
-        <p>This Privacy Policy explains how YubeCalc ("we", "us", or "our") collects, uses, and discloses your information when you use our mobile application (the "App").</p>
-
-        <h2>1. Information We Collect</h2>
-        <p>We collect information to provide better services to our users. The types of information we may collect include:</p>
-        <ul>
-            <li><strong>Usage Data:</strong> We automatically collect certain information about your device and how you interact with the App, such as your IP address, device type, operating system, and the actions you take within the App (e.g., search queries, viewed pages).</li>
-            <li><strong>Crash Reports:</strong> We use Firebase Crashlytics to collect crash reports and app performance data to help us improve stability.</li>
-            <li><strong>Advertising Data:</strong> We use Google AdMob to display advertisements. AdMob may collect and use data (such as device IDs) to provide personalized ads.</li>
-        </ul>
-
-        <h2>2. How We Use Your Information</h2>
-        <p>We use the collected information for the following purposes:</p>
-        <ul>
-            <li>To provide, maintain, and improve the App.</li>
-            <li>To monitor usage and performance through Firebase Analytics.</li>
-            <li>To detect, prevent, and address technical issues and crashes.</li>
-            <li>To serve relevant advertisements through Google AdMob.</li>
-        </ul>
-
-        <h2>3. Third-Party Services</h2>
-        <p>The App uses third-party services that may collect information used to identify you. Link to the privacy policy of third-party service providers used by the App:</p>
-        <ul>
-            <li><a href="https://policies.google.com/privacy" target="_blank">Google Play Services</a></li>
-            <li><a href="https://support.google.com/admob/answer/6128543" target="_blank">AdMob</a></li>
-            <li><a href="https://firebase.google.com/policies/analytics" target="_blank">Google Analytics for Firebase</a></li>
-            <li><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Crashlytics</a></li>
-            <li><a href="https://policies.google.com/privacy" target="_blank">YouTube API Services</a> (YubeCalc uses YouTube API Services to fetch video data)</li>
-        </ul>
-
-        <h2>4. YouTube API Services</h2>
-        <p>By using the App, you agree to be bound by the YouTube Terms of Service. You can review the YouTube Terms of Service at <a href="https://www.youtube.com/t/terms" target="_blank">https://www.youtube.com/t/terms</a>. We use YouTube API Services to display video statistics, and we do not collect or store personal user data from your YouTube account.</p>
-
-        <h2>5. Changes to This Privacy Policy</h2>
-        <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top.</p>
-
-        <h2>6. Contact Us</h2>
-        <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at support@yubecalc.com.</p>
-    </div>
-
-    <footer>
-        <div class="footer-content">
-            <div>
-                <div class="footer-logo">▶ YubeCalc</div>
-            </div>
-            <div class="footer-links">
-                <div>
-                    <a href="index.html">Home</a>
-                    <a href="privacy-policy.html">Privacy Policy</a>
-                    <a href="terms-and-conditions.html">Terms & Conditions</a>
-                </div>
+    <main>
+        <div class="legal-hero">
+            <div class="container">
+                <span class="eyebrow">Legal</span>
+                <h1>Privacy Policy</h1>
+                <p><strong>Last updated:</strong> May 28, 2026</p>
             </div>
         </div>
-        <div class="copyright">
-            &copy; 2026 YubeCalc. All rights reserved.
+
+        <div class="legal-container">
+
+            <p>This Privacy Policy explains how YubeCalc (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) collects, uses, and discloses information when you use our mobile application (the &quot;App&quot;).</p>
+
+            <h2>1. Information We Collect</h2>
+            <p>We collect only what is needed to operate, improve, and monetise the App responsibly. The categories of data are:</p>
+            <ul>
+                <li><strong>Usage data:</strong> Anonymous information about how you interact with the App, such as which screens you visit and which features you tap. This data is aggregated and never tied to your real identity.</li>
+                <li><strong>Device data:</strong> Standard device metadata (operating system, app version, country code, language, advertising identifier) gathered automatically by our analytics and ad partners.</li>
+                <li><strong>Crash reports:</strong> When the App crashes we collect a stack trace and the device model so we can fix it. Crash reports never contain personal data.</li>
+                <li><strong>Advertising data:</strong> Our ad partner may use your device's advertising ID to serve relevant ads. You can reset or limit this ID at any time in your device settings.</li>
+            </ul>
+
+            <h2>2. Information We Do Not Collect</h2>
+            <ul>
+                <li>We do not require an account, so we never collect your name, email, password, or contact list.</li>
+                <li>We do not access your photos, microphone, or camera.</li>
+                <li>We do not request login credentials for any third-party platform.</li>
+            </ul>
+
+            <h2>3. How We Use Your Information</h2>
+            <ul>
+                <li>Operate, maintain, and improve the App's features.</li>
+                <li>Diagnose technical problems and prevent crashes.</li>
+                <li>Measure aggregate usage so we can prioritise the right features.</li>
+                <li>Display advertising and measure ad performance.</li>
+                <li>Comply with applicable law and prevent abuse of the service.</li>
+            </ul>
+
+            <h2>4. Third-Party Services</h2>
+            <p>The App relies on a small set of trusted providers. Each has its own privacy policy:</p>
+            <ul>
+                <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Play Services</a></li>
+                <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">Google AdMob</a> — advertising</li>
+                <li><a href="https://firebase.google.com/policies/analytics" target="_blank" rel="noopener">Google Analytics for Firebase</a> — anonymous usage analytics</li>
+                <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Crashlytics</a> — crash reporting</li>
+            </ul>
+
+            <h2>5. Public Video Data</h2>
+            <p>The App displays publicly available video and channel metadata (titles, descriptions, view counts, thumbnails) so you can research and analyse content. We do not access, modify, or store any private information from your own account on any video platform.</p>
+
+            <h2>6. Children's Privacy</h2>
+            <p>The App is not directed to children under 13. We do not knowingly collect data from children. If you believe a child has provided us information, please contact us and we will delete it.</p>
+
+            <h2>7. Data Retention</h2>
+            <p>Anonymous analytics and crash data are retained by our service providers for the period defined by their own retention policies (typically up to 14 months for analytics and 90 days for crash logs). YubeCalc itself does not store personal data on its own servers.</p>
+
+            <h2>8. Your Choices</h2>
+            <ul>
+                <li><strong>Opt out of personalised ads:</strong> Reset or limit your advertising identifier in your device settings.</li>
+                <li><strong>Clear cached data:</strong> Use your device's app settings to clear all data stored locally by the App.</li>
+                <li><strong>Uninstall:</strong> Removing the App stops all further data collection from your device.</li>
+            </ul>
+
+            <h2>9. Third-Party Platform Disclosures</h2>
+            <p>The App helps you explore publicly available content from third-party video platforms. Any use of content displayed through the App — including titles, descriptions, thumbnails, channel metadata, and performance statistics — is subject to the terms of service and privacy policies of the originating platform. You are responsible for reviewing and complying with those policies when you use the information the App surfaces.</p>
+
+            <h2>10. Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will post the revised version on this page and update the &quot;Last updated&quot; date. Continued use of the App after a change constitutes acceptance of the new policy.</p>
+
+            <h2>11. Contact Us</h2>
+            <p>Questions, requests, or concerns? Reach out at <a href="mailto:support@yubecalc.com">support@yubecalc.com</a>.</p>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">▶</div>
+                        YubeCalc
+                    </div>
+                    <p>Premium creator tools for the next generation of video makers.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <a href="index.html#features">Features</a>
+                    <a href="index.html#how">How it works</a>
+                    <a href="index.html#faq">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="mailto:support@yubecalc.com">support@yubecalc.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 YubeCalc. All rights reserved.</span>
+                <span>Crafted for creators worldwide.</span>
+            </div>
         </div>
     </footer>
 
